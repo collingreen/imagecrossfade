@@ -28,3 +28,18 @@ Only fade the middle 70%:
 Pick output file:
 
 `python crossfade_cli.py path-to-image1 path-to-image2 -o faded.png`
+
+
+## Example
+
+![image1.jpg](https://raw.githubusercontent.com/collingreen/imagecrossfade/master/example/image1.jpg)
+![image2.jpg](https://raw.githubusercontent.com/collingreen/imagecrossfade/master/example/image2.jpg)
+
+`python crossfade_cli.py example/image1.jpg example/image2.jpg --offset .3 -o example/faded.png`
+
+![faded.png](https://raw.githubusercontent.com/collingreen/imagecrossfade/master/example/faded.png)
+
+
+Example Images:
+- forestfire - https://pixabay.com/en/wildfire-forest-fire-blaze-smoke-1105209/
+- rays of light - https://pixabay.com/en/clouds-ray-of-light-light-sky-872143/
